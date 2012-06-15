@@ -39,7 +39,7 @@ Configuration options which would normally be passed to the Redis instance can b
 ### Namespacing
 The real motivation for this library, however, is to provide an easy means of centrally namespacing redis keys for an application.
 
-This is particularly useful where a single redis server is being used for multiple deployments of the same application, or for applications which share a model or models which are persisted through redis. If these are not namespaced then there could be key clashes.
+This is particularly useful where a single redis server is being used for multiple deployments of the same application, or for applications which share a model/ models which are persisted through redis, or simply scenarios were redis keys could clash between applications. 
 
 So for instance you could have an initializer containing something like this:
 
