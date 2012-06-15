@@ -50,6 +50,8 @@ In this scenario calls to the redis method will return an instance of [Redis::Na
 
 ## Testing
 
+    bundle install
+    rake test
 
 ## Author
 Si Wilkins
