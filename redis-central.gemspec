@@ -20,8 +20,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'mocha'
 
   s.description = <<EOS
-Provides an interface for providing access and configuration to a single 
-per-application/thread, optionally namespaced, redis client.
+Provides easy access and configuration to a single per-application/thread, 
+optionally namespaced, redis client.
 EOS
 
 end
