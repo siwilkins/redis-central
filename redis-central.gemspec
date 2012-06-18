@@ -13,9 +13,9 @@ Gem::Specification.new do |s|
 
   s.files = %w{README.md Rakefile LICENCE} + Dir["lib/**/*.rb"] + Dir["spec/**/*.rb"]
 
-  s.add_dependency 'rake'
   s.add_dependency 'redis-namespace'
 
+  s.add_development_dependency 'rake'
   s.add_development_dependency 'minitest'
   s.add_development_dependency 'mocha'
 
